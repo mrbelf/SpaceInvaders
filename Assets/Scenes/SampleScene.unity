@@ -635,6 +635,8 @@ MonoBehaviour:
   enemys: {fileID: 7241126890912067902, guid: 3e2c0c3ba3590c4499edf15e329ea264, type: 3}
   gameOverScreen: {fileID: 6667330571490814896, guid: 3e521224b451d5847a5d56a7570f1da3,
     type: 3}
+  congratulationsScreen: {fileID: 8016090690644950082, guid: 1be2c200843d8a44e875125a04696ac3,
+    type: 3}
 --- !u!4 &1640926550
 Transform:
   m_ObjectHideFlags: 0

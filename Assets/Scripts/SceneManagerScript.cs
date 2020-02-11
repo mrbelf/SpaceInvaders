@@ -9,6 +9,7 @@ public class SceneManagerScript : MonoBehaviour
     public GameObject player;
     public GameObject enemys;
     public GameObject gameOverScreen;
+    public GameObject congratulationsScreen;
 
     private GameObject currentPlayer;
     private GameObject currentEnemys;
@@ -26,8 +27,14 @@ public class SceneManagerScript : MonoBehaviour
         Destroy(this.currentEnemys);
         Instantiate(gameOverScreen);
     }
+    public void Congratulations() {
+        Destroy(this.currentPlayer);
+        Destroy(this.currentEnemys);
+        Instantiate(congratulationsScreen);
+    }
 
     public void GoToMenu() {
         this.canvas.SetActive(true);
     }
+
 }

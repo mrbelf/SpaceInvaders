@@ -63,13 +63,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\GameOverAnimation.cs" />
+    <Compile Include="Assets\Scripts\EndGameAnimation.cs" />
     <Compile Include="Assets\Scripts\InvaderScript.cs" />
     <Compile Include="Assets\Scripts\InvadersQueueScript.cs" />
     <Compile Include="Assets\Scripts\LaserScript.cs" />
     <Compile Include="Assets\Scripts\Move.cs" />
     <Compile Include="Assets\Scripts\SceneManagerScript.cs" />
     <Compile Include="Assets\Scripts\Shoot.cs" />
+    <Compile Include="Assets\Scripts\WinCondition.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/mat26/Desktop/Des. Unity/Atividade 5/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
