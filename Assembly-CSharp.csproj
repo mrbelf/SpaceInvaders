@@ -63,7 +63,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\AudioManagerScript.cs" />
     <Compile Include="Assets\Scripts\EndGameAnimation.cs" />
+    <Compile Include="Assets\Scripts\FaidingScript.cs" />
     <Compile Include="Assets\Scripts\InvaderScript.cs" />
     <Compile Include="Assets\Scripts\InvadersQueueScript.cs" />
     <Compile Include="Assets\Scripts\LaserScript.cs" />
