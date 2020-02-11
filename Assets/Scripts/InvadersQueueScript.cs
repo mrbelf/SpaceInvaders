@@ -8,6 +8,7 @@ public class InvadersQueueScript : MonoBehaviour
     public float moveSize;
     public float leftScreen;
     public float rightScreen;
+    public GameObject SceneManager;
 
     //true => right
     //false <= left
@@ -21,12 +22,18 @@ public class InvadersQueueScript : MonoBehaviour
         this.direction = true;
         this.nextMoveIsDown = false;
         this.timeSinceLastMov = 0;
+        this.SceneManager = GameObject.Find("SceneManager");
     }
 
     void Update()
     {
         if (transform.childCount == 0) {
             Destroy(this.gameObject);
+        }
+        if (transform.position.y < 2f) 
+        {
+            Debug.Log("Game Over");
+            this.SceneManager.GetComponent<SceneManagerScript>().EndGame();
         }
         this.timeSinceLastMov += Time.deltaTime;
         if (timeSinceLastMov > 1f / movesPerSecond) {
