@@ -188,6 +188,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   screenTime: 3
   sceneManager: {fileID: 0}
+  gameOverSFX: {fileID: 6911679614514655037, guid: 3b881464684543e459c6c297cc05079a,
+    type: 3}
 --- !u!1 &7676740176744893940
 GameObject:
   m_ObjectHideFlags: 0
