@@ -63,6 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\GameOverAnimation.cs" />
     <Compile Include="Assets\Scripts\InvaderScript.cs" />
     <Compile Include="Assets\Scripts\InvadersQueueScript.cs" />
     <Compile Include="Assets\Scripts\LaserScript.cs" />

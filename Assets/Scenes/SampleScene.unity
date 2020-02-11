@@ -632,7 +632,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canvas: {fileID: 636426607}
   player: {fileID: 7341016981207310255, guid: 9d7c0ea6015507841891385e102b3d7d, type: 3}
-  enemys: {fileID: 7650284376644596938, guid: ca293cbc759dc734bbc580f95c7b40c5, type: 3}
+  enemys: {fileID: 7241126890912067902, guid: 3e2c0c3ba3590c4499edf15e329ea264, type: 3}
+  gameOverScreen: {fileID: 6667330571490814896, guid: 3e521224b451d5847a5d56a7570f1da3,
+    type: 3}
 --- !u!4 &1640926550
 Transform:
   m_ObjectHideFlags: 0
