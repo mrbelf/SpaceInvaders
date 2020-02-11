@@ -12,4 +12,5 @@ public class LaserScript : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
+
 }
