@@ -38,6 +38,10 @@ public class SceneManagerScript : MonoBehaviour
         this.canvas.SetActive(true);
     }
 
+    public GameObject getPlayer() {
+        return this.currentPlayer;
+    }
+
     void Update()
     {
         if (Input.GetKey(KeyCode.Escape))

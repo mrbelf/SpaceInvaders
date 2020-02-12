@@ -72,6 +72,8 @@
     <Compile Include="Assets\Scripts\InvadersQueueScript.cs" />
     <Compile Include="Assets\Scripts\LaserScript.cs" />
     <Compile Include="Assets\Scripts\Move.cs" />
+    <Compile Include="Assets\Scripts\PlayerPowerUpScript.cs" />
+    <Compile Include="Assets\Scripts\PowerUpScript.cs" />
     <Compile Include="Assets\Scripts\SceneManagerScript.cs" />
     <Compile Include="Assets\Scripts\ShakeTentacules.cs" />
     <Compile Include="Assets\Scripts\Shoot.cs" />
