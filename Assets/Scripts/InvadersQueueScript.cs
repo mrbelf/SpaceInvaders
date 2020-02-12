@@ -32,7 +32,6 @@ public class InvadersQueueScript : MonoBehaviour
         }
         if (transform.position.y < 2f) 
         {
-            Debug.Log("Game Over");
             this.SceneManager.GetComponent<SceneManagerScript>().EndGame();
         }
         this.timeSinceLastMov += Time.deltaTime;

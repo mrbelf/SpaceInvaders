@@ -10,6 +10,8 @@ ScriptsOnlyBuild:
     - InvadersQueueScript
     - LaserScript
     - Move
+    - PlayerPowerUpScript
+    - PowerUpScript
     - SceneManagerScript
     - ShakeTentacules
     - Shoot
@@ -75,39 +77,43 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11244}
     - Class: 114
-      Script: {instanceID: 11326}
+      Script: {instanceID: 11324}
     - Class: 114
-      Script: {instanceID: 11366}
+      Script: {instanceID: 11364}
     - Class: 114
-      Script: {instanceID: 11780}
+      Script: {instanceID: 11778}
     - Class: 114
-      Script: {instanceID: 11996}
+      Script: {instanceID: 11994}
     - Class: 114
-      Script: {instanceID: 12024}
+      Script: {instanceID: 12022}
     - Class: 114
-      Script: {instanceID: 12068}
+      Script: {instanceID: 12066}
+    - Class: 114
+      Script: {instanceID: 12178}
     - Class: 114
       Script: {instanceID: 12194}
     - Class: 114
       Script: {instanceID: 12300}
     - Class: 114
-      Script: {instanceID: 12704}
+      Script: {instanceID: 12422}
     - Class: 114
-      Script: {instanceID: 12732}
+      Script: {instanceID: 12526}
     - Class: 114
-      Script: {instanceID: 12996}
+      Script: {instanceID: 12710}
     - Class: 114
-      Script: {instanceID: 13086}
+      Script: {instanceID: 12714}
     - Class: 114
-      Script: {instanceID: 13092}
+      Script: {instanceID: 12740}
     - Class: 114
-      Script: {instanceID: 13134}
+      Script: {instanceID: 13004}
     - Class: 114
-      Script: {instanceID: 16206}
+      Script: {instanceID: 13036}
     - Class: 114
-      Script: {instanceID: 18104}
+      Script: {instanceID: 13096}
     - Class: 114
-      Script: {instanceID: 18146}
+      Script: {instanceID: 13102}
+    - Class: 114
+      Script: {instanceID: 13144}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -381,6 +387,12 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
+      Hash: 3bcacd8c39569a61e9d51f6a9347c732
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerPowerUpScript
+  - hash:
+      serializedVersion: 2
       Hash: 5f1752ed2092162f016c19510c28a8b9
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -415,6 +427,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ConfettiUnityScript
   - hash:
       serializedVersion: 2
       Hash: 5ad4aa237d47ac2bab17bacb672edf7a
@@ -453,6 +471,18 @@ ScriptsOnlyBuild:
     className: TimelineAsset
   - hash:
       serializedVersion: 2
+      Hash: 13a7225e5d55fdfa6e4b6e4456dd00fa
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SpecialInvader
+  - hash:
+      serializedVersion: 2
+      Hash: d342db3832ef2c95e302005c79d853be
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ShakeTentacules
+  - hash:
+      serializedVersion: 2
       Hash: 3b760e6526e13f7504f59e210145899a
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -469,6 +499,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 1ce8ab60669223760b8cf64218db5bd2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PowerUpScript
   - hash:
       serializedVersion: 2
       Hash: 88cc9df3c6fc697bfbeacd24c0d6f2d7
@@ -507,7 +543,7 @@ ScriptsOnlyBuild:
     className: TMP_ColorGradient
   - hash:
       serializedVersion: 2
-      Hash: 2ff9177703449dbe9190028dadd050eb
+      Hash: a2d07a0bc9f9025398db7e2f110b1d69
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: InvaderScript
@@ -529,6 +565,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 3d960f320903c979537805c6ce670019
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Confetti
   - hash:
       serializedVersion: 2
       Hash: a63fc1a3b035e5a0b5839cd7f7b3086e
@@ -607,25 +649,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: d342db3832ef2c95e302005c79d853be
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ShakeTentacules
-  - hash:
-      serializedVersion: 2
-      Hash: 3d960f320903c979537805c6ce670019
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Confetti
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ConfettiUnityScript
   platform: 5
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/mat26/Desktop/Atividade 5.exe
+  playerPath: C:/Users/mat26/Desktop/Des. Unity/Atividade 5/Compiled/Atividade 5.exe

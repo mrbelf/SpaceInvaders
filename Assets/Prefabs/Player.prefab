@@ -111,6 +111,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   powerUpSFX: {fileID: 7251629775183211889, guid: d04a79df9bb011b46b49c2a9ea1fd38b,
     type: 3}
+  gun: {fileID: 1463153741409239153, guid: d2aea6d2b69e2594fab65b05cac26969, type: 3}
 --- !u!1001 &7314636032228327808
 PrefabInstance:
   m_ObjectHideFlags: 0

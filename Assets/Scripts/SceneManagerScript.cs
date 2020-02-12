@@ -57,7 +57,6 @@ public class SceneManagerScript : MonoBehaviour
             Application.Quit();
         }
         if (!this.gameStarted) {
-            Debug.Log("got here");
             if (Input.GetKey(KeyCode.Return) || Input.GetKey(KeyCode.UpArrow)) {
                 this.StartGame();
             }
