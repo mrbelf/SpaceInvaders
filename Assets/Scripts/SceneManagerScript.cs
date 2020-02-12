@@ -37,4 +37,12 @@ public class SceneManagerScript : MonoBehaviour
         this.canvas.SetActive(true);
     }
 
+    void Update()
+    {
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
+    }
+
 }

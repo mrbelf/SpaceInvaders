@@ -18,6 +18,6 @@ public class FaidingScript : MonoBehaviour
             Destroy(this.gameObject);
         }
         transform.position += ((Vector3.down * speed * Time.deltaTime *0.5f)+(Vector3.left *speed*Time.deltaTime *Random.Range(-2.0f,2.0f)));
-        transform.localScale = transform.localScale * 0.99f;
+        transform.localScale = transform.localScale * Mathf.Pow(0.99f,Time.deltaTime*100);
     }
 }
