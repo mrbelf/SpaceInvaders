@@ -14,8 +14,15 @@ public class SceneManagerScript : MonoBehaviour
     private GameObject currentPlayer;
     private GameObject currentEnemys;
 
+    private bool gameStarted;
+
+    private void Start()
+    {
+        this.gameStarted = false;
+    }
     public void StartGame()
     {
+        this.gameStarted = true;
         this.canvas.SetActive(false);
         this.currentPlayer = Instantiate(this.player, Vector3.up*0.5f, Quaternion.identity);
         this.currentEnemys = Instantiate(this.enemys, Vector3.up*3f, Quaternion.identity);
@@ -35,6 +42,7 @@ public class SceneManagerScript : MonoBehaviour
     }
 
     public void GoToMenu() {
+        this.gameStarted = false;
         this.canvas.SetActive(true);
     }
 
@@ -47,6 +55,12 @@ public class SceneManagerScript : MonoBehaviour
         if (Input.GetKey(KeyCode.Escape))
         {
             Application.Quit();
+        }
+        if (!this.gameStarted) {
+            Debug.Log("got here");
+            if (Input.GetKey(KeyCode.Return) || Input.GetKey(KeyCode.UpArrow)) {
+                this.StartGame();
+            }
         }
     }
 

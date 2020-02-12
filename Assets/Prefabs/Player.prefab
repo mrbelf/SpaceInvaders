@@ -109,7 +109,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3ce078871941134b913fb910fa7e8c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gun: {fileID: 2146254633368485657, guid: c2a5404cb46c749469a8c97e11d95fc8, type: 3}
+  powerUpSFX: {fileID: 7251629775183211889, guid: d04a79df9bb011b46b49c2a9ea1fd38b,
+    type: 3}
 --- !u!1001 &7314636032228327808
 PrefabInstance:
   m_ObjectHideFlags: 0
