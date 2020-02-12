@@ -19,6 +19,7 @@ public class SceneManagerScript : MonoBehaviour
         this.canvas.SetActive(false);
         this.currentPlayer = Instantiate(this.player, Vector3.up*0.5f, Quaternion.identity);
         this.currentEnemys = Instantiate(this.enemys, Vector3.up*3f, Quaternion.identity);
+        this.currentEnemys.transform.GetChild(0).transform.GetChild(Random.Range(0, 5)).GetComponent<InvaderScript>().setSpecial();
     }
 
     public void EndGame()
